@@ -1,0 +1,21 @@
+[package]
+name = "blender-obj"
+version = "0.1.0"
+authors = ["Nasser Idirene <nasser.idirene@acelaworks.com"]
+edition = "2021"
+license = "Apache-2.0/MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "blender-obj"
+
+[build-dependencies]
+cfgrammar = "0.11"
+lrlex = "0.11"
+lrpar = "0.11"
+
+[dependencies]
+cfgrammar = "0.11"
+lrlex = "0.11"
+lrpar = "0.11"
