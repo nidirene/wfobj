@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../../aws/tutorials/sam-app"
+		},
+		{
+			"path": "../../../aws/tutorials/acelaworks.net/tsts3"
+		},
+		{
+			"path": "../../../aws/tutorials/acelaworks-contacts"
+		},
+		{
+			"path": "../../../aws/tutorials/notes"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../aws/tutorials/acelaworks.net/tstsns"
+		}
+	],
+	"settings": {}
+}

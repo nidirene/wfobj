@@ -1,14 +1,18 @@
 [package]
-name = "blender-obj"
+name = "wfobj"
 version = "0.1.0"
 authors = ["Nasser Idirene <nasser.idirene@acelaworks.com"]
 edition = "2021"
 license = "Apache-2.0/MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "wfobj"
+path = "src/lib.rs"
 
 [[bin]]
-name = "blender-obj"
+name = "wfobj"
+src = "src/main.rs"
 
 [build-dependencies]
 cfgrammar = "0.11"
@@ -19,3 +23,5 @@ lrpar = "0.11"
 cfgrammar = "0.11"
 lrlex = "0.11"
 lrpar = "0.11"
+regex = "1"
+log = "*"
